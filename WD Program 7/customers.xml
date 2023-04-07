@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="customer.xsl"?>
+<root>
+  <customers>
+    <customer>
+      <name>Tom Cruise</name>
+      <branch>Hollywood</branch>
+      <age>55</age>
+      <city>NewYork</city>
+    </customer>
+    <customer>
+      <name>Shah Rukh Khan</name>
+      <branch>Bollywood</branch>
+      <age>53</age>
+      <city>NewDelhi</city>
+    </customer>
+    <customer>
+      <name>Ajith Kumar</name>
+      <branch>Kollywood</branch>
+      <age>51</age>
+      <city>Chennai</city>
+    </customer>
+    <customer>
+      <name>Mahesh Babu</name>
+      <branch>Tollywood</branch>
+      <age>43</age>
+      <city>Telungana</city>
+    </customer>
+    <customer>
+      <name>Yash</name>
+      <branch>Sandalwood</branch>
+      <age>38</age>
+      <city>Bangalore</city>
+    </customer>
+  </customers>
+</root>

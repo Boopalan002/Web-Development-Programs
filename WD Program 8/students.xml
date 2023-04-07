@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="students.xsl"?>
+<students>
+  <student>
+    <name>Gowtham K</name>
+    <age>20</age>
+    <dob>05/11/2000</dob>
+    <mobile>9597778797</mobile>
+    <address>Saravanampatti, Coimbatore, Tamil Nadu</address>
+  </student>
+  <student>
+    <name>Subash G</name>
+    <age>21</age>
+    <dob>23/04/2000</dob>
+    <mobile>7550381058</mobile>
+    <address>Thudiyalur, Coimbatore, Tamil Nadu</address>
+  </student>
+  <student>
+    <name>Vikram Pandian K</name>
+    <age>20</age>
+    <dob>12/07/2000</dob>
+    <mobile>6369998479</mobile>
+    <address>Theni, Tamil Nadu</address>
+  </student>
+  <student>
+    <name>Vijay M N</name>
+    <age>21</age>
+    <dob>05/05/1999</dob>
+    <mobile>7094325052</mobile>
+    <address>Saibaba Colony, Coimbatore, Tamil Nadu</address>
+  </student>
+</students>

@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KGISL IIM - Intercollegiate Registration Form</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h2>GEEKMATICS 23 - Intercollegiate Registration Form</h2>
+            <p>Please fill in the form below</p>
+        </div>
+        <form action="" class="form" id="form">
+            <div class="form-control">
+                <label>Name</label>
+                <input type="text" placeholder="Enter your Fullname" id="name">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Mobile Number</label>
+                <input type="text" placeholder="Enter your 10 digit mobile number" id="mobile">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Email</label>
+                <input type="text" placeholder="Enter your Mail ID" id="email">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>College Name</label>
+                <input type="text" placeholder="Name of the College" id="college">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Discipline</label>
+                <input type="text" placeholder="Course & Department" id="discipline">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Participant College ID</label>
+                <input type="text" placeholder="Enter your College ID Number" id="collegeid">
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Year of Study</label>
+                <select id="year">
+                    <option value="-1">--Select Year--</option>
+                    <option value="I">I</option>
+                    <option value="I">II</option>
+                    <option value="I">III</option>
+                </select>
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Events - Technical</label>
+                <select id="t-events">
+                    <option value="-1">--Select Events--</option>
+                    <option value="events">Web Page Design</option>
+                    <option value="events">Code Debugging</option>
+                    <option value="events">Paper Presentation</option>
+                    <option value="events">Quiz</option>
+                </select>
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <label>Events - Non-technical</label>
+                <select id="nt-events">
+                    <option value="-1">--Select Events--</option>
+                    <option value="events">Poster Making</option>
+                    <option value="events">Rangoli</option>
+                    <option value="events">Photography</option>
+                    <option value="events">Best Out of Waste</option>
+                    <option value="events">Dance</option>
+                    <option value="events">Ad Mad Show</option>
+                    <option value="events">Connexion</option>
+                </select>
+                <i class="fa-solid fa-circle-check"></i>
+                <i class="fa-solid fa-circle-exclamation"></i>
+                <small>Error Message</small>
+            </div>
+
+            <div class="form-control">
+                <button>Submit</button>
+            </div>
+        </form>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

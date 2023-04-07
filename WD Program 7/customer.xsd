@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" attributeFormDefault="unqualified"
+		   elementFormDefault="qualified">
+	<xs:element name="root" type="rootType">
+	</xs:element>
+
+	<xs:complexType name="rootType">
+		<xs:sequence>
+			<xs:element name="customers" type="customersType"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="customersType">
+		<xs:sequence>
+			<xs:element name="customer" type="customerType" maxOccurs="unbounded" minOccurs="0"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:complexType name="customerType">
+		<xs:sequence>
+			<xs:element type="nameType" name="name" />
+			<xs:element type="xs:string" name="branch"/>
+			<xs:element type="xs:short" name="age"/>
+			<xs:element type="xs:string" name="city"/>
+		</xs:sequence>
+	</xs:complexType>
+
+	<xs:simpleType name="nameType">
+		<xs:restriction base="xs:token">
+			<xs:minLength value="4"/>
+			<xs:maxLength value="60"/>
+		</xs:restriction>
+	</xs:simpleType>
+</xs:schema>
